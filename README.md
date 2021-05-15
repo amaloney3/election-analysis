@@ -39,7 +39,5 @@ but to help visualize, we could simply indicate to future users that the code is
 
 ![image](https://user-images.githubusercontent.com/1015285/118376775-a4840b80-b58f-11eb-89db-eab8dc389b92.png)
 
-![image](https://user-images.githubusercontent.com/1015285/118376809-deeda880-b58f-11eb-8c53-515ff0425b78.png)
-
 Additionally, the code would only need slight tweaks 
 
