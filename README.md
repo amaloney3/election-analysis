@@ -35,9 +35,14 @@ The analysis shows:
 Although the code and analysis focus on a single congressional race, the product can easily be modified to summarize future elections. For starters, let's 
 assume we want to compile similar summary statistics, but for a more localized race in which votes are tallied by precinct instead of county. The changes 
 are really more conceptual than substantive (the same exact code could theoretically work just fine for such a race if the raw data is formatted similarly), 
-but to help visualize, we could simply indicate to future users that the code is geared toward precinct rather than county tallies:
+but to help visualize, we could simply change our county variables to indicate to future users that the code is geared toward precinct tallies instead:
 
 ![image](https://user-images.githubusercontent.com/1015285/118376775-a4840b80-b58f-11eb-89db-eab8dc389b92.png)
 
-Additionally, the code would only need slight tweaks 
+Similarly, the script would only need slight tweaks to tally additional outcomes. Let's say that besides candidates and counties, our data also contained votes on a ballot initiative in the fourth column, either 'YES' or 'NO'. We could index those votes and use conditional statements to generate a summary by initializing a variable to tally affirmative votes (say, "yes_votes") and use an "if" statement in our initial loop to check whether the condition is met. 
 
+![image](https://user-images.githubusercontent.com/1015285/118378532-2bd67c80-b59a-11eb-84e4-635f943524e4.png)
+
+Of course, we would want to do more testing before implementing the modified script in the wild. And using this method, we'd have to do some additional math
+to tally the total 'NO' votes (and misvotes/overvotes, in a real-life setting). But the point remains: the code can be adapted, amended, and adjusted quite easily to
+account for additional outcomes.
