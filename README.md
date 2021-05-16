@@ -1,4 +1,4 @@
-# Election Analysis
+# Election Analysis: Coding for Colorado's Election Authority
 
 ## Project Overview
 This is a practice audit of the results for a local congressional race for the Colorado Board of Elections. The purpose of the assignment
